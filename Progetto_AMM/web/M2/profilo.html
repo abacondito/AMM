@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NerdBook - il social network a cammello</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author"  content="Alessio Murgioni">
+    </head>
+    <body>
+        <nav>
+            <a href="login.html">Login</a>
+            <a href="descrizione.html">descrizione</a>
+        </nav>
+        <div>
+            <h1>
+                Crea un nuovo profilo
+            </h1>
+            <form action="profilo.html" method="post">
+                <p>
+                    <label for="nomeUtente">Nome</label>
+                    <input type="text" name="nomeUtente" id="nomeUtente"/>
+                
+                    <label for="cognomeUtente">Cognome</label>
+                    <input type="text" name="cognomeUtente" id="cognomeUtente"/>
+                    
+                    <label for="urlImmagine">immagine profilo(url)</label>
+                    <input type="url" name="urlImmagine" id="urlImmagine"/>
+                    
+                    <label for="frasePresentazione">Frase di presentazione</label>
+                    <textarea rows="4" cols="20" name="frasePresentazione" id="frasePresentazione"></textarea>
+                    
+                    <label for="dataNascita">Data di nascita</label>
+                    <input type="date" name="dataNascita" id="dataNascita"/>
+                    
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password"/>
+                    
+                    <label for="confPassword">Password</label>
+                    <input type="password" name="confPassword" id="confPassword"/>
+                    
+                    <button type="submit">invia</button>
+                </p>
+                
+            </form>
+        </div>
+    </body>
+</html>

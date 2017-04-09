@@ -1,0 +1,18 @@
+/* 
+    Created on : 28-mar-2017, 12.05.34
+    Author     : alessio
+*/
+
+body{
+    background-color: #52A2D4;
+    color: #000000;
+    font-family: 'Open Sans', 'Arial', serif;
+    font-size: 50px;
+}
+a:link{
+    color: #FFFFFF;
+}
+a:visited{
+    color: #C0C0C0;
+}
+
