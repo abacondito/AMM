@@ -8,41 +8,80 @@
         <meta name="author"  content="Alessio Murgioni">
     </head>
     <body>
-        <nav>
-            <a href="login.html">Login</a>
-            <a href="descrizione.html">descrizione</a>
-        </nav>
-        <div>
-            <h1>
-                Crea un nuovo profilo
+        <div class="intestazione">
+            <h1 id="nomeSito">
+                NerdBook
             </h1>
-            <form action="profilo.html" method="post">
-                <p>
-                    <label for="nomeUtente">Nome</label>
-                    <input type="text" name="nomeUtente" id="nomeUtente"/>
-                
-                    <label for="cognomeUtente">Cognome</label>
-                    <input type="text" name="cognomeUtente" id="cognomeUtente"/>
-                    
-                    <label for="urlImmagine">immagine profilo(url)</label>
-                    <input type="url" name="urlImmagine" id="urlImmagine"/>
-                    
-                    <label for="frasePresentazione">Frase di presentazione</label>
-                    <textarea rows="4" cols="20" name="frasePresentazione" id="frasePresentazione"></textarea>
-                    
-                    <label for="dataNascita">Data di nascita</label>
-                    <input type="date" name="dataNascita" id="dataNascita"/>
-                    
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password"/>
-                    
-                    <label for="confPassword">Password</label>
-                    <input type="password" name="confPassword" id="confPassword"/>
-                    
-                    <button type="submit">invia</button>
-                </p>
-                
-            </form>
+            <nav class="NavBarSuperiore">
+                <a href="login.html">Login</a>
+                <a href="descrizione.html">descrizione</a>
+            </nav>
         </div>
+        
+        <nav class="NavBarLaterale">
+            <h2>
+                Persone
+            </h2>
+            <ul>
+                <li>
+                    <a href="utente2.html">
+                        Sempronio
+                    </a>
+                </li>
+                <li>
+                    <a href="utente3.html">
+                        Thal de Tàl
+                    </a>
+                </li>
+            </ul>
+            <h2>
+                Gruppi
+            </h2>
+            <ul>
+                <li>
+                    <a href="EllissiStanche.html">
+                        EllissiStanche
+                    </a>
+                </li>
+                <li>
+                    <a href="ManciniDestrorsi.html">
+                        ManciniDestrorsi
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="corpoCentrale">
+            <div class="casellaFormProfilo">
+                <form action="profilo.html" method="post">
+                    <p>
+                        <label for="nomeUtente">Nome</label>
+                        <input type="text" name="nomeUtente" id="nomeUtente"/>
+
+                        <label for="cognomeUtente">Cognome</label>
+                        <input type="text" name="cognomeUtente" id="cognomeUtente"/>
+
+                        <label for="urlImmagine">immagine profilo(url)</label>
+                        <input type="url" name="urlImmagine" id="urlImmagine"/>
+
+                        <label for="frasePresentazione">Frase di presentazione</label>
+                        <input type="text" name="frasePresentazione" id="frasePresentazione"/>
+
+                        <label for="dataNascita">Data di nascita</label>
+                        <input type="date" name="dataNascita" id="dataNascita"/>
+
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password"/>
+
+                        <label for="confPassword">Password</label>
+                        <input type="password" name="confPassword" id="confPassword"/>
+
+                        <button type="submit">invia</button>
+                    </p>
+
+                </form>
+            </div>
+        </div>
+        
     </body>
 </html>
