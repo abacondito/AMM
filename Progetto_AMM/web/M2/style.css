@@ -36,31 +36,24 @@ p{
 
 nav.NavBarSuperiore a {
     padding: 15px;
-    width: 120px;
-    height: 50px;
-    border-right: solid #000000 2px;
+    
     
 }
 
 .post{
     border: solid 2px #000000;
     padding-left: 7px;
+    padding-right: 7px;
     margin-bottom: 5px;
 }
 
 .NavBarSuperiore{
     border: solid 2px #000000;
-    padding: 15px;
-    height: 17px;
     width: auto;
 }
 
 #nomeSito{
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    width: 120px;
-    height: 36px;
+    
     border: solid 2px #000000;
     margin: 0px;
     float: left;
@@ -74,15 +67,9 @@ nav.NavBarSuperiore a {
 
 .NavBarLaterale{
     border: solid 2px #000000;
-    float: left;
     margin-top: 5px;
-    padding-bottom: 100%;
-    width: 160px;
-    height: 100%;
-}
-
-.corpoCentrale{
-    margin-left: 170px;
+    
+    
 }
 
 #presentazione{
@@ -100,7 +87,6 @@ nav.NavBarSuperiore a {
 .casellaFormProfilo{
     border: 3px black solid;
     margin: 5px auto;
-    width: 400px;
     height: auto;
 }
 
@@ -130,3 +116,123 @@ a:visited{
     color: #1D989C;
 }
 
+@media only screen and (min-width:1024px){
+    h1{
+        color: red;
+    }
+    
+    .corpoCentrale{
+        margin-left: 170px;
+    }
+    
+    .NavBarLaterale{
+        float: left;
+        width: 160px;
+        height: 100%;
+        padding-bottom: 100%;
+    }
+    
+    .casellaFormProfilo{
+        width: 400px;
+    }
+    
+    #nomeSito{
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 120px;
+        height: 36px;
+    }
+    
+    .NavBarSuperiore{
+        padding: 15px;
+        height: 17px;
+    }
+    nav.NavBarSuperiore a{
+        width: 130px;
+        height: 50px;
+        border-right: solid #000000 2px;
+    }
+    
+}
+
+@media only screen and (max-width:480px){
+    h1{
+        color: white;
+    }
+    
+    .NavBarLaterale{
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .fotoProfilo{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .casellaFormProfilo{
+        width: auto; 
+    }
+    
+    #nomeSito{
+        font-size: 25px;
+        padding: 0px 5px;
+    }
+    
+    .NavBarSuperiore{
+        padding: 5px;
+        height: 21px;
+    }
+    nav.NavBarSuperiore a{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:480px){
+    .corpoCentrale{
+        margin-left: 170px;
+    }
+    
+    .NavBarLaterale{
+        float: left;
+        width: 160px;
+        height: 100%;
+        padding-bottom: 100%;
+    }
+    
+    .casellaFormProfilo{
+        width: 400px;
+    }
+    
+    #nomeSito{
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 120px;
+        height: 36px;
+    }
+    
+    .NavBarSuperiore{
+        padding: 15px;
+        height: 17px;
+    }
+    
+    nav.NavBarSuperiore a{
+        width: 130px;
+        height: 50px;
+        border-right: solid #000000 2px;
+    }
+    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
